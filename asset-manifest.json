@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Chibi-Dental/static/css/main.293c534f.chunk.css",
+    "main.js": "/Chibi-Dental/static/js/main.aacfa59f.chunk.js",
+    "main.js.map": "/Chibi-Dental/static/js/main.aacfa59f.chunk.js.map",
+    "runtime-main.js": "/Chibi-Dental/static/js/runtime-main.c3f2970f.js",
+    "runtime-main.js.map": "/Chibi-Dental/static/js/runtime-main.c3f2970f.js.map",
+    "static/js/2.aab709a8.chunk.js": "/Chibi-Dental/static/js/2.aab709a8.chunk.js",
+    "static/js/2.aab709a8.chunk.js.map": "/Chibi-Dental/static/js/2.aab709a8.chunk.js.map",
+    "index.html": "/Chibi-Dental/index.html",
+    "static/css/main.293c534f.chunk.css.map": "/Chibi-Dental/static/css/main.293c534f.chunk.css.map",
+    "static/js/2.aab709a8.chunk.js.LICENSE.txt": "/Chibi-Dental/static/js/2.aab709a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3f2970f.js",
+    "static/js/2.aab709a8.chunk.js",
+    "static/css/main.293c534f.chunk.css",
+    "static/js/main.aacfa59f.chunk.js"
+  ]
+}
