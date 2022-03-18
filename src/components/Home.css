@@ -1,0 +1,265 @@
+.home {
+  background-image: url("https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  /*justify-content: center;*/
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.menu__btn {
+  display: none !important;
+}
+
+.time {
+  display: flex;
+  color: white;
+  justify-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(106, 209, 106);
+}
+
+.time2 {
+  display: none;
+}
+
+.time > div,
+.time > h1,
+.time > p {
+  margin-right: 10px;
+}
+
+.time > h1 {
+  justify-content: center;
+  font-size: 18px;
+}
+
+.time > p {
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 20px;
+}
+
+.nav > a {
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+}
+
+.logo:hover {
+  color: rgb(106, 209, 106);
+}
+
+.navbar {
+  display: flex;
+  padding-top: 5px;
+}
+
+.navbar > a {
+  text-decoration: none;
+  margin-right: 80px;
+  color: white;
+}
+
+.navbar > a:hover {
+  color: rgb(106, 209, 106);
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: rgb(71, 71, 207);
+  height: 24px;
+}
+
+.phone__icon {
+  padding-top: 0px;
+}
+
+.phone > p {
+  margin-left: 5px;
+  padding-top: 2px;
+}
+
+.intro {
+  padding-top: 300px;
+  padding-left: 50px;
+}
+
+.intro > h2 {
+  color: rgb(106, 209, 106);
+}
+
+.intro > h1 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.serv,
+.promo {
+  transition: transform 300ms ease-in;
+}
+
+.serv {
+  background-color: rgb(106, 209, 106);
+  margin-right: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.promo {
+  border: 2px solid white;
+  padding: 18px;
+  transform: translate(-50%, -50%);
+}
+
+.serv:hover {
+  background-color: rgb(73, 179, 73);
+}
+
+.promo:hover {
+  border: 2px dashed white;
+  transform: translate(-50%, -50%);
+  animation: spin 10s linear infinite;
+  color: rgb(106, 209, 106);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.serv:active {
+  background-color: rgb(44, 160, 44);
+}
+
+.intro > .btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 820px) {
+  .menu__btn {
+    display: block !important;
+    font-size: 36px !important;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 0;
+  }
+
+  .menu__btn:hover {
+    cursor: pointer;
+  }
+
+  .time {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 300px;
+    position: absolute;
+    height: auto;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+    padding: 0;
+  }
+
+  .logo:hover {
+    color: black;
+  }
+
+  .closed {
+    transform: translateX(0%);
+  }
+
+  .logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background: rgb(106, 209, 106);
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .navbar > a {
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .navbar > a > h2 {
+    margin-left: 100px;
+  }
+
+  .navbar > a > h2:hover {
+    color: black;
+  }
+
+  .intro {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  .navbar > a:hover {
+    color: black;
+    background-color: rgb(106, 209, 106);
+  }
+  .intro > h1 {
+    padding-bottom: 80px;
+  }
+
+  .time2 {
+    display: block;
+    background-color: rgb(106, 209, 106);
+  }
+
+  .time__logo2,
+  .phone__icon2,
+  .location__logo2 {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
+
+  .time2 > h1 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+  }
+
+  .time2 > p {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+  }
+}

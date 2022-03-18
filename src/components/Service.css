@@ -1,0 +1,54 @@
+.service {
+  width: 250px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  transition: transform 300ms ease-in;
+}
+
+.service:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  overflow: hidden;
+}
+
+.serv__img {
+  width: 100%;
+  height: auto;
+
+  overflow: hidden;
+}
+
+.service > h1,
+.service > p {
+  padding: 10px;
+}
+
+.service > a {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.serv__btn {
+  height: 50px;
+  width: 120px;
+  background: rgb(106, 209, 106);
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.serv__btn:hover {
+  background-color: rgb(41, 194, 41);
+}
+
+.serv__btn:active {
+  background-color: rgb(16, 172, 16);
+}

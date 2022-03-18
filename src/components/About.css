@@ -1,0 +1,13 @@
+.about__us {
+  padding: 50px 20px;
+}
+
+.about__us > h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgb(50, 202, 50);
+}
+
+.location {
+  text-align: center;
+}
